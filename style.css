@@ -38,13 +38,14 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 10px;
   max-height: 0;
   padding: 0 10px;
   transition: max-height 0.5s ease, padding 0.5s ease;
   min-width: 100%;
   overflow: hidden;
   overflow-x: auto;
+  font-family: "Gothic A1", sans-serif;
 }
 .toggle-icon {
   color: black;
@@ -60,6 +61,14 @@
 .table-wrapper {
   width: 100%;
   overflow-x: auto;
+}
+.table-title {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.note{
+  font-size: 22px;
 }
 table {
   min-width: 700px;
@@ -80,7 +89,6 @@ td {
   text-align: center;
   padding: 5px 0;
   font-size: 18px;
-  font-family: "Gothic A1", sans-serif;
 }
 .opacity0 {
   opacity: 0;
@@ -90,15 +98,17 @@ td {
   background-color: var(--bg-color);
   padding: 10px 0;
 }
-
+.accordion-title-box h2{
+  font-weight: 400;
+}
 @media screen and (max-width: 550px) {
-    .accordion-title-box h2 {
-        font-size: 18px;
-    }
-    .accordion-title-box  a{
-        font-size: 16px;
-    }
-    td{
-        font-size: 14px;
-    }
-} 
+  .accordion-title-box h2 {
+    font-size: 18px;
+  }
+  .accordion-title-box a {
+    font-size: 16px;
+  }
+  td {
+    font-size: 14px;
+  }
+}
