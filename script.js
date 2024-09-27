@@ -4,7 +4,7 @@ function handleAccordion(title) {
     const content = header.nextElementSibling; // Get the accordion content
   
     // Toggle 'active' class for opening/closing the accordion
-    const isOpen = item.classList.toggle('active');
+    const isOpen = item.classList.toggle('active'); 
   
     // Smooth open/close behavior
     if (isOpen) {
