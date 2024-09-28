@@ -2,7 +2,7 @@ function handleAccordion(title) {
     const header = title.parentElement.parentElement; // Get the parent accordion-header
     const item = header.parentElement; // Get the parent accordion-item
     const content = header.nextElementSibling; // Get the accordion content
-  
+   
     // Toggle 'active' class for opening/closing the accordion
     const isOpen = item.classList.toggle('active'); 
   
